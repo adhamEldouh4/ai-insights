@@ -674,3 +674,170 @@ header {
   font-size: 14px;
   color: #94a3b8;
 }
+
+/* ============================= */
+/* =========  TABLET  ========= */
+/* ============================= */
+@media (max-width: 992px) {
+  /* Header */
+  .nav-list {
+    gap: 15px;
+  }
+
+  .hero h1 {
+    font-size: 44px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  /* AI Overview */
+  .ai-overview-content {
+    flex-direction: column;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .ai-overview-content img {
+    width: 80%;
+  }
+
+  .ai-overview-text {
+    padding: 0;
+  }
+
+  /* Features Grid */
+  .feature-grid {
+    justify-content: center;
+  }
+
+  /* Contact Section */
+  .contact-content {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  .faq {
+    max-width: 100%;
+  }
+
+  /* Footer */
+  .footer-content {
+    gap: 70px;
+    flex-wrap: wrap;
+  }
+}
+
+/* ============================= */
+/* =========  MOBILE  ========= */
+/* ============================= */
+@media (max-width: 768px) {
+  /* Header */
+  .header-container {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .nav-list {
+    gap: 10px;
+  }
+
+  .nav-list li a {
+    font-size: 14px;
+  }
+
+  /* Hero */
+  .hero h1 {
+    font-size: 34px;
+  }
+
+  .hero p {
+    font-size: 15px;
+    width: 95%;
+    margin: auto;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  /* AI Overview */
+  .ai-overview-content img {
+    width: 100%;
+  }
+
+  .ai-overview-text h3 {
+    font-size: 20px;
+  }
+
+  .ai-overview-text p {
+    font-size: 15px;
+  }
+
+  /* Features Cards */
+  .feature-card {
+    width: 100%;
+  }
+
+  /* Applications Cards */
+  .ai-cards {
+    grid-template-columns: 1fr;
+  }
+
+  /* Table */
+  .ai-tech-table {
+    min-width: 650px;
+  }
+
+  /* Contact Section */
+  .contact-form {
+    width: 100%;
+  }
+
+  /* Footer */
+  .footer-content {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .footer-box p {
+    width: 100%;
+  }
+}
+
+/* ============================= */
+/* ===== EXTRA SMALL PHONES ==== */
+/* ============================= */
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .hero-buttons .btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .feature-card {
+    padding: 20px 15px;
+  }
+
+  .ai-card-content p {
+    font-size: 13px;
+  }
+
+  .ai-card-tags span {
+    font-size: 11px;
+  }
+
+  .footer-content {
+    gap: 40px;
+  }
+}
